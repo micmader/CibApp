@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:visibility="visible"
+    tools:context=".NormalActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/tea_image"
+                app:srcCompat="@drawable/indian_cup_tea_plate_world_famous_known_india_masala_chaye_170076361" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+Per prepare la camomilla occore avere una bustina di camomilla e aprirla e versare la polverina (si può fare con lo zucchero o senza zucchero)
+
+
+"
+                app:layout_constraintBottom_toTopOf="@+id/imageView2"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/pasta_con_le_zucchine" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingredienti: \n
+zucchine,    \n
+olio, \n
+pangratto, \n
+parmigiano,\n
+Preparazione: \n
+tagliare le zucchine e friggerle in olio con una padella tappata in modo che conservisco la loro acqua. \n
+non farle scurire. \n
+aggiungere il pangrattato,il parmigiano ed eventualmente acqua di cottura della pasta e olio \n
+saltare la pasta. \n
+
+
+
+
+
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:srcCompat="@drawable/pomodoro_mozzarella" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+5 Pomodori e mozzarella
+tagliare i pomodori e mozzarella in un piatto
+poi metterli in una ciotola.
+
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="carne"
+                app:srcCompat="@drawable/carne" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basta aprire con un coltello e meterla nel piatto(se si vuole si puo mettere la maionese).
+"
+                app:layout_constraintBottom_toTopOf="@+id/imageView2"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="carne"
+                app:srcCompat="@drawable/multi" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+Ingredienti  \n
+10 pomodori\n
+capperi\n
+tonno\n
+taglia tutti i pomodori, poi metti il tonno e infine metti i capperi
+
+"
+                app:layout_constraintBottom_toTopOf="@+id/imageView2"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="carne"
+                app:srcCompat="@drawable/carne_pomodori" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+Prendere una pentola e poi metterci un filo d'olio,mettere il carpaccio e un limone strizzato. accendere la fiamma e cuocere 1 minuto.
+poi aggiungere i pomodori tagliati a rondelle e spegnere la fiamma.
+"  />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="carne"
+                app:srcCompat="@drawable/pane_pomodori" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+Basta prendere una frisella ,poi mettere l'acqua, poi prendere dei pomodori ,poi tagliarliarli a rondelle e infine mettere il basilico,
+sale e pepe.
+
+            "   />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="carne"
+                app:srcCompat="@drawable/latte_cacao_toschi"  />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+Basta prendere li latte poi mettere il Toschi alla menta infine mettere il cacao.
+
+            "   />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="carne"
+                app:srcCompat="@drawable/cocco"  />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+Basta prendere il cocco poi spaccarlo mettere l'acqua di cocco in un bicchiere poi mettere la parte bianca in una ciotola piena d'acqua.
+
+            "   />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
